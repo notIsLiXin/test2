@@ -1,0 +1,17 @@
+spring:
+  datasource:
+#    name: test #数据库名
+#    url: jdbc:mysql://localhost:3306/test #url
+#    username: root #用户名
+#    password: 123456 #密码
+#    driver-class-name: com.mysql.jdbc.Driver #数据库链接驱动
+    name: STISP_2020 #数据库名
+    url: jdbc:postgresql://192.168.18.72:5432/STISP_2020 #url
+    username: postgres #用户名
+    password: tswltx400@samton202204 #密码
+    driver-class-name: org.postgresql.Driver #数据库链接驱动
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml #配置映射文件
+  type-aliases-package: com.example.test.bean #配置实体类
