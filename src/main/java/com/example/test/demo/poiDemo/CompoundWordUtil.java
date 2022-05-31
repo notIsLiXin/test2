@@ -28,6 +28,7 @@ public class CompoundWordUtil {
         //4008655018_duohao_state.doc
         File newFile = new File("D:\\test\\poi\\4008655018_all.doc");
         List<File> srcfile = new ArrayList<>();
+        System.out.println(1);
 
         File file1 = new File("D:\\test\\poi\\4008655018_commitment.doc");
         File file2 = new File("D:\\test\\poi\\4008655018_duohao_state.doc");
